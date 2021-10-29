@@ -28,11 +28,11 @@
         c.width = window.innerWidth + 100;
 
         //characters - taken from the unicode charset
-        var matrix = "AnonyViet Dep Trai, We are AnonyViet";
+        var matrix = "CAOTHITHANHTHAOLUONTHAIBINH";
         //converting the string into an array of single characters
         matrix = matrix.split("");
 
-        var font_size = 10;
+        var font_size = 15; // size font 
         var columns = c.width/font_size; //number of columns for the rain
         //an array of drops - one per column
         var drops = [];
@@ -69,7 +69,7 @@
             }
         }
 
-        setInterval(draw, 35);
+        setInterval(draw, 100); // speed
 
         
         </script>
